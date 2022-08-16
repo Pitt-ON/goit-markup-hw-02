@@ -1,8 +1,35 @@
 /* Палитра */
-/* Цвета логотипа, почта в header, акцент #2196F3, #00000 */
+/* Цвета логотипа, почта в header, акцент #2196F3, #000000 */
 /* Фон в секции Шапка и footer background: #2F303A; */
 /* Цвет основного текста #212121 */
 /* Вторичный цвет #757575 */
 /* Цвет текста в шапке #FFFFFF */
 /* Контакты в footer rgba(255, 255, 255, 0.6); */
 /* Фон в секции Наша команда background: #F5F4FA; */
+
+body {
+    background-color: #fff;
+    color: #212121;    
+}
+
+ul {
+    list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Section */
+
+.sectio-title {
+    color: #212121;
+}
+
