@@ -66,7 +66,6 @@ ul {
 .site-nav {}
 
 .site-nav-link: {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -83,7 +82,6 @@ ul {
 .header-contacts {}
 
 .header-contacts-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -102,7 +100,6 @@ ul {
 }
 
 .head-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -113,21 +110,63 @@ ul {
     color: #FFFFFF;
 }
 
-.head-button {}
+.head-button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+}
+
+.head-button:hover,
+.head-button:focus {
+    background: #188CE8;
+}
 
 .features {}
 
-.features-title {}
+.features-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
 
 .features-list {}
 
 .features-item {}
 
-.features-text {}
+.features-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;    
+    color: #757575;
+}
 
 .services {}
 
-.services-title {}
+.services-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
 .services-list {}
 
@@ -137,17 +176,46 @@ ul {
 
 .team {}
 
-.team-title {}
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+}
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-picture {}
 
-.team-name {}
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #212121;
+}
 
-.team-profession {}
+.team-profession {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #757575;
+}
 
 .page-footer {}
 
@@ -199,8 +267,25 @@ ul {
 .footer-contacts {
 }
 .footer-contacts-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;        
+        letter-spacing: 0.03em;    
+        color: #FFFFFF;
 }
 .footer-contacts-list {
 }
 .footer-contacts-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-item:hover,
+.footer-contacts-item:focus {
+    color: #2196F3;
 }
