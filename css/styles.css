@@ -9,7 +9,13 @@
 
 body {
     background-color: #fff;
-    color: #212121;    
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -39,19 +45,73 @@ ul {
 
 .page-header-nav {}
 
-.logo {}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;    
+    color: #2196F3;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
 
 .site-nav {}
 
-.site-nav-link {}
+.site-nav-link: {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: #2196F3;
+}
 
 .header-contacts {}
 
-.header-contacts-link {}
+.header-contacts-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;    
+    color: #757575;
+}
 
-.head {}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #2196F3;
+}
 
-.head-title {}
+.head {
+    background: #2F303A;
+}
+
+.head-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
 
 .head-button {}
 
@@ -101,44 +161,46 @@ ul {
 
 /* класси з portfolio.html */
 
-.page-header {}
-
-.page-header-nav {}
-
-.logo {}
-
-.site-nav {}
-
-.site-nav-link {}
-
-.header-contacts {}
-
-.header-contacts-link {}
-
-.portfolio {}
-
-.filters-title {}
-
-.filters-list {}
-
-.filters-item {}
-
-.portfolio-list {}
-
-.portfolio-item {}
-
-.portfolio-picture {}
-
-.portfolio-title {}
-
-.portfolio-text {}
-
-.page-footer {}
-
-.footer-contacts {}
-
-.footer-contacts-text {}
-
-.footer-contacts-list {}
-
-.footer-contacts-item {}
+.page-header {
+}
+.page-header-nav {
+}
+.logo {
+}
+.site-nav {
+}
+.site-nav-link {
+}
+.header-contacts {
+}
+.header-contacts-link {
+}
+.portfolio {
+}
+.filters-title {
+}
+.filters-list {
+}
+.filters-item {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-picture {
+}
+.portfolio-title {
+}
+.portfolio-text {
+}
+.page-footer {
+    background: #2F303A;
+}
+.footer-contacts {
+}
+.footer-contacts-text {
+}
+.footer-contacts-list {
+}
+.footer-contacts-item {
+}
