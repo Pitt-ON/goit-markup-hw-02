@@ -33,3 +33,112 @@ ul {
     color: #212121;
 }
 
+/* класси з index.html */
+
+.page-header {}
+
+.page-header-nav {}
+
+.logo {}
+
+.site-nav {}
+
+.site-nav-link {}
+
+.header-contacts {}
+
+.header-contacts-link {}
+
+.head {}
+
+.head-title {}
+
+.head-button {}
+
+.features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-text {}
+
+.services {}
+
+.services-title {}
+
+.services-list {}
+
+.services-item {}
+
+.services-picture {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-picture {}
+
+.team-name {}
+
+.team-profession {}
+
+.page-footer {}
+
+.footer-contacts {}
+
+.footer-contacts-text {}
+
+.footer-contacts-list {}
+
+.footer-contacts-item {}
+
+/* класси з portfolio.html */
+
+.page-header {}
+
+.page-header-nav {}
+
+.logo {}
+
+.site-nav {}
+
+.site-nav-link {}
+
+.header-contacts {}
+
+.header-contacts-link {}
+
+.portfolio {}
+
+.filters-title {}
+
+.filters-list {}
+
+.filters-item {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-picture {}
+
+.portfolio-title {}
+
+.portfolio-text {}
+
+.page-footer {}
+
+.footer-contacts {}
+
+.footer-contacts-text {}
+
+.footer-contacts-list {}
+
+.footer-contacts-item {}
