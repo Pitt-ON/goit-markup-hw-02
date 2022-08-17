@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    outline: none;
 }
 
 ul {
@@ -50,7 +51,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;    
     color: #2196F3;
 }
@@ -69,7 +70,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -85,7 +86,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     letter-spacing: 0.02em;    
     color: #757575;
 }
@@ -103,7 +104,7 @@ ul {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.35;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;    
@@ -114,11 +115,14 @@ ul {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
 
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;    
+    line-height: 1.88;    
     display: flex;
     align-items: center;
     text-align: center;
@@ -137,7 +141,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -151,7 +155,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 1.7;    
     letter-spacing: 0.03em;    
     color: #757575;
 }
@@ -162,7 +166,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -180,7 +184,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -201,7 +205,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;    
+    line-height: 1.19;    
     text-align: center;
     letter-spacing: 0.03em;    
     color: #212121;
@@ -211,7 +215,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;    
+    line-height: 1.19;    
     text-align: center;
     letter-spacing: 0.03em;    
     color: #757575;
@@ -244,33 +248,70 @@ ul {
 .header-contacts-link {
 }
 .portfolio {
+
 }
 .filters-title {
 }
 .filters-list {
 }
-.filters-item {
+.filters-button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
+
+.filters-button:hover,
+.filters-button:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+}
+
 .portfolio-list {
 }
 .portfolio-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .portfolio-picture {
 }
 .portfolio-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;    
+    color: #212121;
 }
 .portfolio-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;    
+    letter-spacing: 0.03em;    
+    color: #757575;
 }
 .page-footer {
     background: #2F303A;
 }
+
 .footer-contacts {
 }
 .footer-contacts-text {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;        
+        line-height: 1.7;        
         letter-spacing: 0.03em;    
         color: #FFFFFF;
 }
@@ -280,7 +321,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 1.7;    
     letter-spacing: 0.03em;    
     color: rgba(255, 255, 255, 0.6);
 }
