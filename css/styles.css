@@ -16,7 +16,6 @@ body {
 
 a {
     text-decoration: none;
-    outline: none;
 }
 
 ul {
@@ -48,7 +47,6 @@ ul {
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -67,7 +65,6 @@ ul {
 .site-nav {}
 
 .site-nav-link: {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -83,7 +80,6 @@ ul {
 .header-contacts {}
 
 .header-contacts-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -101,7 +97,6 @@ ul {
 }
 
 .head-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
@@ -117,9 +112,7 @@ ul {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-    outline: none;
 
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;    
@@ -138,7 +131,6 @@ ul {
 .features {}
 
 .features-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
@@ -152,8 +144,6 @@ ul {
 .features-item {}
 
 .features-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;    
     letter-spacing: 0.03em;    
@@ -163,7 +153,6 @@ ul {
 .services {}
 
 .services-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -178,17 +167,17 @@ ul {
 
 .services-picture {}
 
-.team {}
+.team {
+    background: #F5F4FA;
+}
 
 .team-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    background: #F5F4FA;
 }
 
 .team-list {}
@@ -202,7 +191,6 @@ ul {
 .team-picture {}
 
 .team-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;    
@@ -212,8 +200,6 @@ ul {
 }
 
 .team-profession {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;    
     text-align: center;
@@ -259,9 +245,7 @@ ul {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-    outline: none;
     
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -286,16 +270,14 @@ ul {
 .portfolio-picture {
 }
 .portfolio-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;    
     letter-spacing: 0.06em;    
     color: #212121;
+
 }
 .portfolio-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;    
     letter-spacing: 0.03em;    
@@ -304,22 +286,17 @@ ul {
 .page-footer {
     background: #2F303A;
 }
-
 .footer-contacts {
 }
 .footer-contacts-text {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;        
-        letter-spacing: 0.03em;    
-        color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;        
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
 }
 .footer-contacts-list {
 }
 .footer-contacts-item {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;    
     letter-spacing: 0.03em;    
