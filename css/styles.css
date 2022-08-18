@@ -75,19 +75,6 @@ body {
     color: var(--accent-txt-cl);
 }
 
-.site-nav-link: {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
-    color: var(--basic-txt-cl);
-}
-
-.site-nav-link:hover,
-.site-nav-link:focus {
-    color:var(--accent-txt-cl);
-}
-
 .header-contacts-link {
     font-weight: 500;
     font-size: 14px;
