@@ -1,11 +1,3 @@
-/* Палитра */
-/* Цвета логотипа, почта в header, акцент #2196F3, #000000 */
-/* Фон в секции Шапка и footer background: #2F303A; */
-/* Цвет основного текста #212121 */
-/* Вторичный цвет #757575 */
-/* Цвет текста в шапке #FFFFFF */
-/* Контакты в footer rgba(255, 255, 255, 0.6); */
-/* Фон в секции Наша команда background: #F5F4FA; */
 :root {
     /* Fonts */
     --basic-font: 'Roboto', sans-serif;
@@ -45,6 +37,25 @@ body {
     list-style: none;
 }
 
+/* Logo */
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;    
+    color: var(--accent-txt-cl);
+}
+
+.logo-header {
+    color: var(--logo-txt-cl);
+}
+
+.logo-footer {
+    color: var(--light-txt-cl);
+}
+
 /* Site nav */
 
 .site-nav-link {
@@ -62,31 +73,6 @@ body {
 
 .site-nav-link.current {
     color: var(--accent-txt-cl);
-}
-
-/* Section */
-
-.sectio-title {
-    color: var(--basic-txt-cl);
-}
-
-/* класси з index.html */
-
-.logo {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    letter-spacing: 0.03em;    
-    color: var(--accent-txt-cl);
-}
-
-.logo-header {
-    color: var(--logo-txt-cl);
-}
-
-.logo-footer {
-    color: var(--light-txt-cl);
 }
 
 .site-nav-link: {
@@ -115,6 +101,8 @@ body {
     color: var(--accent-txt-cl);
 }
 
+/* Head */
+
 .head,
 .page-footer {
     background: var(--hdr-ftr-bg-cl);
@@ -136,7 +124,6 @@ body {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-
     /* outline: none; */
 
     font-weight: 700;
@@ -154,6 +141,8 @@ body {
     background: var(--accent-hdr-cl);
 }
 
+/* Features */
+
 .features-title {
     font-weight: 700;
     font-size: 14px;
@@ -170,14 +159,18 @@ body {
     color: var(--secondary-txt-cl);
 }
 
+/* Services */
+
 .services-title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--basic-txt-cl);
 }
+
+/* Team */
 
 .team {
     background: var(--team-bg-cl);
@@ -187,7 +180,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--basic-txt-cl);
 }
@@ -215,6 +208,8 @@ body {
     color: var(--secondary-txt-cl);
 }
 
+/* Footer */
+
 .footer-contacts {
     font-style: normal;
 }
@@ -238,7 +233,7 @@ body {
     color: var(--accent-txt-cl);
 }
 
-/* класси з portfolio.html */
+/* Portfolio.html */
 
 .filters-button {
     font-family: inherit;
@@ -251,7 +246,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--basic-txt-cl);
 }
